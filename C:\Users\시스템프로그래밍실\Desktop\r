@@ -6,7 +6,7 @@
     <title>Web development</title>
 </head>
 <body>
-    <h1>semantic tag</h1>
+    <h1>Adding an image</h1>
     <hr>
     <header>
         <div>
@@ -21,61 +21,11 @@
     <hr>
     <main>
         <section>
-            <table>
-                <caption>table</caption>
-                <colgriup>
-                    <col span="5" style="width: 150px;">
-
-                </colgriup>
-                <tr>
-                    <th>과일</th>
-                    <th>야채</th>
-                    <th>과채류</th>
-                 </tr>
-                 <tr>
-                     <td>사과</td>
-                     <td>배</td>
-                     <td>감</td>
-                 </tr>
-                 <tr>
-                    <td>10</td>
-                    <td>2</dh>
-                    <td>8</td>
-                </tr>
-                <tr>
-                    <td>1,000</td>
-                    <td rowspan="2">2,500</td>
-                    <td rowspan="2">6,530</td>
-                </tr>
-                <tr>
-                    <td>5,000</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </table>
-        </section>
-        <section>
-          <h1>make a list of explanations</h1>
-          <dl>
-              <dt>
-                    결코 어렵지 않습니다.
-              </dt>
-              <dd>
-                    description list는 이름<sub>(name)</sub> 값<sub>(value)</sub>형태로 이루어진 목록입니다.
-              </dd>
-          </dl>
-        </section>
-        <section>
-            <h1>make a list</h1>
-          <ul>
-            <li>나는 할수있다.<sub>I can do it</sub><br></li>
-            <li>나는 할수있다.<sup>I can do it</sup><br></li>
-            <li> 나는 할수있다.<s>I can do it</s><br></li>
-            <li>나는 할수있다.<small>I can do it</small><br></li>
-            <li>나는 할수있다.<cite>I can do it</cite><br></li>
-            <li>나는 할수있다.<abbr>I can do it</abbr><br></li>
-          </ul>  
-        </section>
+            <a href="https://www.naver.com/" target="blank"><img srcset="https://cdn.pixabay.com/photo/2018/11/14/13/05/mont-hwan-3815215_960_720.jpg 1x, https://cdn.pixabay.com/photo/2018/11/14/13/05/mont-hwan-3815215_1280.jpg 2x" src="https://cdn.pixabay.com/photo/2018/11/14/13/05/mont-hwan-3815215_960_720.jpg" alt="Dream, Ocean, Horizon, Tree, Peaceful, Landscape" width="100%" height="25%" style="height: auto"></a>
+            <object width="100%" height="25%"   data="img/arboretum-gb53371968_1920.jpg" type=""></object>
+            <a href="https://www.naver.com/"><div class="vp-video-wrapper transparent"><div class="vp-video"><div class="vp-telecine"><video preload="" tabindex="-1" loop="" disablepictureinpicture="" style="" src="blob:https://player.vimeo.com/57783625-a8f9-4144-99a6-fd81f8d969d5"></video></div></div><div class="vp-preview vp-preview-cover vp-preview-invisible" data-thumb="https://i.vimeocdn.com/video/1041233298-29414be97043b7735e2fba1f49aaa5302ee52f37d2e671d74590d3c8e8a10c7e-d?mw=700&amp;mh=396" data-thumb-width="700" style="background-image: url(&quot;https://i.vimeocdn.com/video/1041233298-29414be97043b7735e2fba1f49aaa5302ee52f37d2e671d74590d3c8e8a10c7e-d?mw=700&amp;mh=396&quot;);"></div><div class="vp-shade vp-shade-invisible"></div><div class="vp-nudge-shade vp-nudge-shade-left vp-nudge-shade-invisible"></div><div class="vp-nudge-shade vp-nudge-shade-right vp-nudge-shade-invisible"></div><div class="vp-spin vp-spin-invisible"> <svg class="vp-spin-trace" viewBox="0 0 50 50" focusable="false"><circle cx="50%" cy="50%" r="20"></circle></svg><svg class="vp-spin-circle" viewBox="0 0 50 50" focusable="false"><circle cx="50%" cy="50%" r="20"></circle></svg> </div></div>
+            </a>
+            </section>
     </main>
     <hr>
     <footer>
