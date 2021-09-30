@@ -21,10 +21,28 @@
     <hr>
     <main>
         <section>
-            <p>semantic tag1</p>
+            <p>hn은 이와 같다</p>
+            <h1>h1</h1>
+            <h2>h2</h2>
+            <h3>h3</h3>
+            <h4>h4</h4>
+            <h5>h5</h5>
+            <h6>h6</h6>
         </section>
         <section>
             <p>semantic tag2</p>
+            <p>p를 이용하여 텍스트 단락을 만들고 <br> br 을 이용하여 줄을 바꾼다</p>
+            <blockquote>How wonderful life is!<br>now, you're in the world</blockquote>
+            <p>여러가지 태그를 이용해 보기 앞서 <strong>굵게 강조</strong>하는 것과 <b>굵게 표시</b>하는 것은 사뭇 다른 표현이다.<br>
+            emphasis를 아는가 강조를 뜻하는 단어이다. 이 단어의 줄임말은 "em" <em>이탤릭체로 강조</em>와 <i>이텔릭체로 표현</i> 또한 다르다</p>
+        </section>
+        <section>
+            나는 할수있다.<sub>I can do it</sub><br>
+            나는 할수있다.<sup>I can do it</sup><br>
+            나는 할수있다.<s>I can do it</s><br>
+            나는 할수있다.<small>I can do it</small><br>
+            나는 할수있다.<cite>I can do it</cite><br>
+            나는 할수있다.<abbr>I can do it</abbr><br>
         </section>
     </main>
     <hr>
