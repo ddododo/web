@@ -21,28 +21,60 @@
     <hr>
     <main>
         <section>
-            <p>hn은 이와 같다</p>
-            <h1>h1</h1>
-            <h2>h2</h2>
-            <h3>h3</h3>
-            <h4>h4</h4>
-            <h5>h5</h5>
-            <h6>h6</h6>
+            <table>
+                <caption>table</caption>
+                <colgriup>
+                    <col span="5" style="width: 150px;">
+
+                </colgriup>
+                <tr>
+                    <th>과일</th>
+                    <th>야채</th>
+                    <th>과채류</th>
+                 </tr>
+                 <tr>
+                     <td>사과</td>
+                     <td>배</td>
+                     <td>감</td>
+                 </tr>
+                 <tr>
+                    <td>10</td>
+                    <td>2</dh>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>1,000</td>
+                    <td rowspan="2">2,500</td>
+                    <td rowspan="2">6,530</td>
+                </tr>
+                <tr>
+                    <td>5,000</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
         </section>
         <section>
-            <p>semantic tag2</p>
-            <p>p를 이용하여 텍스트 단락을 만들고 <br> br 을 이용하여 줄을 바꾼다</p>
-            <blockquote>How wonderful life is!<br>now, you're in the world</blockquote>
-            <p>여러가지 태그를 이용해 보기 앞서 <strong>굵게 강조</strong>하는 것과 <b>굵게 표시</b>하는 것은 사뭇 다른 표현이다.<br>
-            emphasis를 아는가 강조를 뜻하는 단어이다. 이 단어의 줄임말은 "em" <em>이탤릭체로 강조</em>와 <i>이텔릭체로 표현</i> 또한 다르다</p>
+          <h1>make a list of explanations</h1>
+          <dl>
+              <dt>
+                    결코 어렵지 않습니다.
+              </dt>
+              <dd>
+                    description list는 이름<sub>(name)</sub> 값<sub>(value)</sub>형태로 이루어진 목록입니다.
+              </dd>
+          </dl>
         </section>
         <section>
-            나는 할수있다.<sub>I can do it</sub><br>
-            나는 할수있다.<sup>I can do it</sup><br>
-            나는 할수있다.<s>I can do it</s><br>
-            나는 할수있다.<small>I can do it</small><br>
-            나는 할수있다.<cite>I can do it</cite><br>
-            나는 할수있다.<abbr>I can do it</abbr><br>
+            <h1>make a list</h1>
+          <ul>
+            <li>나는 할수있다.<sub>I can do it</sub><br></li>
+            <li>나는 할수있다.<sup>I can do it</sup><br></li>
+            <li> 나는 할수있다.<s>I can do it</s><br></li>
+            <li>나는 할수있다.<small>I can do it</small><br></li>
+            <li>나는 할수있다.<cite>I can do it</cite><br></li>
+            <li>나는 할수있다.<abbr>I can do it</abbr><br></li>
+          </ul>  
         </section>
     </main>
     <hr>
