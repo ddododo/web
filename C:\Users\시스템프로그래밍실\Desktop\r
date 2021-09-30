@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web development</title>
+</head>
+<body>
+    <h1>semantic tag</h1>
+    <hr>
+    <header>
+        <div>
+            <h2>Logo</h2>
+        </div>
+        <nav>
+            <a href="https://www.naver.com/">naver</a> |
+            <a href="https://www.google.co.kr/">google</a> |
+            <a href="https://www.daum.net/">daum</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <section>
+            <p>semantic tag1</p>
+        </section>
+        <section>
+            <p>semantic tag2</p>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <p>pooter</p>
+    </footer>
+</body>
+</html>
