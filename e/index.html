@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web form</title>
+</head>
+<body>
+    <h1>Adding an image</h1>
+    <hr>
+    <header>
+        <div>
+            <h2>Logo</h2>
+        </div>
+        <nav>
+            <a href="https://www.naver.com/">naver</a> |
+            <a href="https://www.google.co.kr/">google</a> |
+            <a href="https://www.daum.net/">daum</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <section>
+            <h1>form 이용하기</h1>
+            <form action="">
+              <fieldset>
+                <legend>1번</legend>
+                <legend>항목 1<input type="checkbox"></legend>
+                <legend>항목 2<input type="checkbox"></legend>
+              </fieldset>
+              <fieldset>
+                <legend>2번</legend>
+                <legend>
+                    <label> ID<input type="text" maxlength="10"></label><br>
+                    <label> password<input type="password"maxlength="10"></label><br>
+                    <label> email<input type="email"></label><br>
+                    <label> tel<input type="tel"maxlength="11"></label><br>
+                    <label> number<input type="number"></label><br>
+                </legend>
+              </fieldset>   
+              <label><input type="submit" value="전송">  </label>
+              <label><input type="reset">  </label>
+            </form>
+            </section>
+            <br>
+            <section>
+                <label><input type="checkbox" value="1"> back </label>
+                <input type="range" min="0" max="5">numberd
+                <br>
+                <label><input type="checkbox" value="2"> home </label>
+                <input type="range" min="0" max="5">numberd
+            </section>
+            <hr>
+            <section>
+                <h1>날짜 지정</h1>
+                <input type="date" min="2020-12-31" max="2021-12-31">
+                <input type="month">
+                <input type="week">
+            </section>
+            <section>
+                <h1>시간 지정</h1>
+                <input type="time">
+                <input type="datetime">
+                <input type="datetime-local">
+            </section>
+    </main>
+    <hr>
+    <footer>
+        <p>pooter</p>
+    </footer>
+</body>
+</html>
